@@ -1,6 +1,6 @@
 import PlausibleProvider from 'next-plausible';
 
-export default function PlausibleTracker() {
+const PlausibleTracker = () => {
   return (
     <PlausibleProvider
       domain={process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN!}
@@ -10,4 +10,6 @@ export default function PlausibleTracker() {
       trackOutboundLinks
     />
   );
-}
+};
+
+export default PlausibleTracker;
