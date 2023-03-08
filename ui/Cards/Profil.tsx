@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { age } from '@/lib/utils';
-import me from '@/public/assets/me.jpg';
+import me from '@/public/assets/me.jpeg';
 
 import Card from './Card';
 
