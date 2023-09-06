@@ -30,4 +30,8 @@ COPY --from=build /app/build ./build
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/package.json ./package.json
 
+ARG PORT=8518
+
+ENV NODE_ENV=production PORT=$PORT
+
 CMD ["node", "build"]
