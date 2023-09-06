@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  website:
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile
+    pull_policy: build
+    command: node build
+    ports:
+      - 8518:8518
