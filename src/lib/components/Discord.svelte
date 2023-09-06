@@ -12,7 +12,7 @@
 
 <Card class="col-span-3 h-full rounded-2xl" scale>
 	<a
-		href="discord://-/users/${discordId}"
+		href="discord://-/users/{discordId}"
 		class={cn(
 			'flex h-full flex-col items-center justify-center rounded-2xl bg-indigo-500 text-4xl text-white transition duration-500',
 			{
