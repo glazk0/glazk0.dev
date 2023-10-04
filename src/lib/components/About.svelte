@@ -25,28 +25,22 @@
 	<p>
 		I'm passionate about development, lately I've been working on a some of projects like
 		<a
-			href="https://palia.guide?ref=glazk0.dev"
-			target="_blank"
-			class="text-pink-300/80 hover:text-pink-300/100">Palia Guide</a
-		>
-		a
-		<a
 			href="https://lilith.mom?ref=glazk0.dev"
 			target="_blank"
-			class="text-pink-300/80 hover:text-pink-300/100">Diablo 4 Discord bot</a
+			class="underline hover:opacity-80">Diablo 4 Discord bot</a
 		>, a
 		<a
 			href="https://github.com/glazk0/zeki"
 			target="_blank"
-			class="text-pink-300/80 hover:text-pink-300/100"
+			class="underline hover:opacity-80"
 		>
 			Palia Discord bot
 		</a>
-		a
+		and a
 		<a
 			href="https://aeternum.me?ref=glazk0.dev"
 			target="_blank"
-			class="text-pink-300/80 hover:text-pink-300/100"
+			class="underline hover:opacity-80"
 		>
 			New World Discord bot</a
 		>.

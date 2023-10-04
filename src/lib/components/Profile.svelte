@@ -12,7 +12,7 @@
 
 <Card
 	class={cn(
-		'p-200 col-span-4 flex items-center justify-center overflow-hidden rounded-2xl border-pink-500 bg-pink-500/30 backdrop-blur-2xl md:col-span-4 md:h-52',
+		'p-200 col-span-4 flex items-center justify-center overflow-hidden rounded-2xl border-pink-500 bg-pink-500/30 backdrop-blur-2xl md:h-52',
 		{
 			'opacity-20': category && category !== id
 		}
