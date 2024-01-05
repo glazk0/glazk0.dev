@@ -4,13 +4,15 @@
 	import { page } from '$app/stores';
 
 	import Navbar from '$lib/components/Navbar.svelte';
-
-	$: hostname = $page.url.hostname;
 </script>
 
 <svelte:head>
 	<title>glazk0.dev</title>
-	<script defer data-domain={hostname} src="https://plausible.glazk0.dev/js/script.js"></script>
+	<script
+		defer
+		data-domain={$page.url.hostname}
+		src="https://plausible.glazk0.dev/js/script.js"
+	></script>
 	<link rel="icon" href="/favicon.ico" />
 
 	<title>glazk0.dev</title>
@@ -24,7 +26,7 @@
 
 	<meta property="og:site_name" content="glazk0.dev" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:url" content={$page.url.href} />
+	<meta property="og:url" content={`https://${$page.url.hostname}${$page.url.pathname}`} />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="glazk0.dev" />
 	<meta property="og:description" content="Developer, gamer, and student." />

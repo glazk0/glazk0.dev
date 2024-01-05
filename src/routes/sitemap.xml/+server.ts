@@ -13,7 +13,7 @@ export const GET: RequestHandler = async ({ url }) => {
     .map((path) => path.replace(/^\//, ''))
     .filter(Boolean);
 
-  const response = sitemap(url.origin, pages);
+  const response = sitemap(`https://${url.host}`, pages);
 
   return text(response, {
     headers
