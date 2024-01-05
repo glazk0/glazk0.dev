@@ -8,19 +8,16 @@
 
 <svelte:head>
 	<title>glazk0.dev</title>
+
 	<script
 		defer
 		data-domain={$page.url.hostname}
 		src="https://plausible.glazk0.dev/js/script.js"
 	></script>
+
 	<link rel="icon" href="/favicon.ico" />
 
-	<title>glazk0.dev</title>
-
-	<meta
-		name="robots"
-		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-	/>
+	<meta name="theme-color" content="#e2e2e2" />
 
 	<meta name="description" content="Developer, gamer, and student." />
 
@@ -37,7 +34,10 @@
 	<meta name="twitter:description" content="Developer, gamer, and student." />
 	<meta name="twitter:image" content="/assets/banner.webp" />
 
-	<meta name="robots" content="index, follow" />
+	<meta
+		name="robots"
+		content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+	/>
 	<meta name="googlebot" content="index, follow" />
 </svelte:head>
 

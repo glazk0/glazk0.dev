@@ -2,6 +2,9 @@
 export default {
 	darkMode: 'media',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	future: {
+		hoverOnlyWhenSupported: true,
+	},
 	theme: {
 		extend: {
 			colors: {
@@ -10,10 +13,10 @@ export default {
 					dark: '#171717'
 				},
 				primary: '#4942E4',
-				secondary: '#fcba03',
+				secondary: '#ff9800',
 				card: '#3d3d54'
 			}
-		}
+		},
 	},
 	plugins: []
 };

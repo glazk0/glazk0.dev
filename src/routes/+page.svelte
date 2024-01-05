@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Code from '$lib/components/icons/Code.svelte';
 	import Djs from '$lib/components/icons/DJS.svelte';
 	import Discord from '$lib/components/icons/Discord.svelte';
 	import Docker from '$lib/components/icons/Docker.svelte';
@@ -26,9 +27,15 @@
 
 <div class="grid grid-cols-6 gap-6">
 	<div
-		class="col-span-4 flex flex-col justify-between p-8 overflow-hidden rounded-2xl bg-[#009688] text-white backdrop-blur-2xl h-52"
+		class="col-span-full sm:col-span-4 flex flex-col justify-between p-8 overflow-hidden rounded-2xl bg-[#009688] text-white backdrop-blur-2xl h-52"
 	>
-		<div>
+		<div class="flex justify-between items-center">
+			<img
+				class="rounded-full h-20 w-20 border-4 border-white/20
+			"
+				src="https://github.com/glazk0.png"
+				alt="me"
+			/>
 			<a class="hover:opacity-80 p-2 bg-white/30 rounded-xl" href="//github.com/glazk0/glazk0.dev"
 				>this website ↗️</a
 			>
@@ -42,23 +49,7 @@
 	</div>
 
 	<div
-		class="group hover:scale-95 transition duration-300 col-span-2 overflow-hidden bg-black text-white rounded-2xl h-52"
-	>
-		<a
-			href="//twitter.com/glazk0"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="flex h-full items-center justify-center text-4xl"
-		>
-			<span class="sr-only">X</span>
-			<span class="transition duration-300 group-hover:-rotate-[10deg] group-hover:scale-[1.3]">
-				<X class="w-8 h-8" />
-			</span>
-		</a>
-	</div>
-
-	<div
-		class="col-span-3 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-[#f5f5f5] text-black"
+		class="col-span-3 sm:col-span-2 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-[#f5f5f5] text-black"
 	>
 		<a
 			class="flex flex-col h-full justify-between"
@@ -67,7 +58,7 @@
 			rel="noopener noreferrer"
 		>
 			<span aria-hidden>
-				<span class="flex justify-between">
+				<span class="flex justify-between items-center">
 					<Github class="h-8 w-8" />
 					<External class="opacity-50 transition duration-500 group-hover:opacity-100" />
 				</span>
@@ -80,7 +71,24 @@
 	</div>
 
 	<div
-		class="col-span-3 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-indigo-500 text-white"
+		class="col-span-3 sm:col-span-2 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-secondary text-white"
+	>
+		<a class="flex flex-col h-full justify-between" href="/projects">
+			<span aria-hidden>
+				<span class="flex justify-between items-center">
+					<Code class="h-8 w-8" />
+					<External class="opacity-50 transition duration-500 group-hover:opacity-100" />
+				</span>
+			</span>
+			<span>
+				<span class="block font-title font-bold">(side) projects</span>
+				<span class="block text-sm">the things i've been working on</span>
+			</span>
+		</a>
+	</div>
+
+	<div
+		class="col-span-full sm:col-span-4 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-indigo-500 text-white"
 	>
 		<a
 			href="discord://-/users/{discordId}"
@@ -93,7 +101,9 @@
 		</a>
 	</div>
 
-	<div class="col-span-full h-full bg-blue-500 text-white flex rounded-xl p-8 flex-col gap-2">
+	<div
+		class="col-span-full sm:col-span-4 h-full bg-blue-500 text-white flex rounded-xl p-8 flex-col gap-2"
+	>
 		<h2 class="font-title text-xl font-bold">
 			Hello world <span class="inline">⭐</span>
 		</h2>
@@ -117,7 +127,23 @@
 		</p>
 	</div>
 
-	<div class="h-52 col-span-3 md:col-span-2 bg-[#9c27b0] rounded-xl p-8">
+	<div
+		class="group hover:scale-95 transition duration-300 col-span-3 sm:col-span-2 overflow-hidden bg-black text-white rounded-2xl"
+	>
+		<a
+			href="//twitter.com/glazk0"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="flex h-full items-center justify-center text-4xl"
+		>
+			<span class="sr-only">X</span>
+			<span class="transition duration-300 group-hover:-rotate-[10deg] group-hover:scale-[1.3]">
+				<X class="w-8 h-8" />
+			</span>
+		</a>
+	</div>
+
+	<div class="h-52 col-span-3 sm:col-span-2 bg-[#9c27b0] rounded-xl px-4 py-8 sm:px-8">
 		<div class="grid w-full grid-cols-4 grid-rows-4 gap-4 [&>svg]:w-full [&>svg]:text-center">
 			<Javascript />
 			<Typescript />
@@ -139,7 +165,7 @@
 	</div>
 
 	<div
-		class="col-span-3 md:col-span-4 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-[#5850ec] text-white"
+		class="col-span-full sm:col-span-4 group hover:scale-95 transition duration-300 h-52 flex p-8 flex-col justify-between overflow-hidden rounded-2xl bg-[#5850ec] text-white"
 	>
 		<a
 			class="flex flex-col h-full justify-between"
