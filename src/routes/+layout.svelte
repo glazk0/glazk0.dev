@@ -26,7 +26,7 @@
 
 	<meta property="og:site_name" content="glazk0.dev" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:url" content={`https://${$page.url.hostname}${$page.url.pathname}`} />
+	<meta property="og:url" content={`https://glazk0.dev${$page.url.pathname}`} />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="glazk0.dev" />
 	<meta property="og:description" content="Developer, gamer, and student." />
