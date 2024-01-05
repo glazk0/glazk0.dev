@@ -1,51 +1,21 @@
 <script lang="ts">
-	import { cn } from '$lib/utils';
+	import { page } from '$app/stores';
 
-	import navigation from '$lib/stores/navigation';
-
-	const handleNavigation = (key: string) => {
-		navigation.set(key);
-	};
-
-	$: category = $navigation;
-
-	$: console.log(category);
+	import { cn, routes } from '$lib/utils';
 </script>
 
-<nav class="flex w-full justify-center">
-	<div class="flex items-center justify-center rounded-full gap-4 font-semibold focus:outline-none">
-		<button
-			on:click={() => handleNavigation('')}
-			class={cn(
-				'hover:bg-gray-200 hover:text-black text-white rounded-full px-4 py-3 focus:outline-none',
-				{
-					'bg-gray-200 text-black': category === ''
-				}
-			)}
-		>
-			Home
-		</button>
-		<button
-			on:click={() => handleNavigation('about')}
-			class={cn(
-				'hover:bg-gray-200 hover:text-black text-white rounded-full px-4 py-3 focus:outline-none',
-				{
-					'bg-gray-200 text-black': category === 'about'
-				}
-			)}
-		>
-			About
-		</button>
-		<button
-			on:click={() => handleNavigation('work')}
-			class={cn(
-				'hover:bg-gray-200 hover:text-black  text-white rounded-full px-4 py-3 focus:outline-none',
-				{
-					'bg-gray-200 text-black': category === 'work'
-				}
-			)}
-		>
-			Work
-		</button>
-	</div>
+<nav class="flex justify-between items-center">
+	<a class="text-2xl font-bold" href="/">glazk0</a>
+	<ul class="flex items-center gap-4">
+		{#each routes as route}
+			<li>
+				<a
+					class={cn('hover:underline', {
+						'font-bold underline': $page.url.pathname === route.path
+					})}
+					href={route.path}>{route.name}</a
+				>
+			</li>
+		{/each}
+	</ul>
 </nav>

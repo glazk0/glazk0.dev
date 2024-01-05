@@ -1,0 +1,84 @@
+[
+	{
+		"name": "Discord Bots",
+		"projects": [
+			{
+				"name": "Lilith",
+				"description": "An intuitive and user-friendly Discord bot designed for Diablo 4 enthusiasts, it is being used by over 2,500 servers and 400,000 users",
+				"link": "https://lilith.mom?ref=glazk0.dev",
+				"tags": [
+					"discord.js",
+					"typescript",
+					"postgresql",
+					"prisma",
+					"docker",
+					"open source"
+				]
+			},
+			{
+				"name": "Zeki",
+				"description": "A user-friendly Discord bot seamlessly connected to Paliapedia, enhancing your Discord experience, it is being used by over 150 servers and 10,000 users",
+				"link": "https://github.com/glazk0/zeki",
+				"tags": [
+					"discord.js",
+					"typescript",
+					"postgresql",
+					"drizzle",
+					"docker",
+					"open source"
+				]
+			},
+			{
+				"name": "Aeternum",
+				"description": "Dive into New World with Aeternum, an intuitive Discord bot connected to New World Database, it is being used by over 8,000 servers and 700,000 users",
+				"link": "https://aeternum.me?ref=glazk0.dev",
+				"tags": [
+					"discord.js",
+					"javascript",
+					"mongodb",
+					"mongoose"
+				]
+			}
+		]
+	},
+	{
+		"name": "Web Development",
+		"projects": [
+			{
+				"name": "Personal Website",
+				"description": "Explore my personal website, a showcase of my work and interests. Built with TypeScript, Svelte (Kit), Tailwind CSS, and available as open source",
+				"link": "https://github.com/glazk0/glazk0.dev",
+				"tags": [
+					"website",
+					"typescript",
+					"svelte(kit)",
+					"tailwindcss",
+					"open source"
+				]
+			},
+			{
+				"name": "Peer-at Code",
+				"description": "A website to learn programming languages by practicing against other people",
+				"link": "https://app.peerat.dev?ref=glazk0.dev",
+				"tags": [
+					"website",
+					"typescript",
+					"svelte(kit)",
+					"tailwindcss",
+					"open source"
+				]
+			},
+			{
+				"name": "Lilith LFG",
+				"description": "Find like-minded gamers for Diablo 4 on Lilith LFG, a platform also used by the Lilith Discord bot community",
+				"link": "https://lilith.mom?ref=glazk0.dev",
+				"tags": [
+					"website",
+					"typescript",
+					"svelte(kit)",
+					"tailwindcss"
+				]
+			}
+		]
+	}
+]

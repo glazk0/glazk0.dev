@@ -1,26 +1,23 @@
-FROM node:latest AS base
+FROM node:21-slim AS base
 
-RUN npm i -g pnpm
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
 
-FROM base AS dependencies
+RUN corepack enable
+
+COPY . /app
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml ./
+FROM base AS deps
 
-RUN pnpm install --frozen-lockfile
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
 
 FROM base AS build
 
-WORKDIR /app
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 
-COPY . .
-
-COPY --from=dependencies /app/node_modules ./node_modules
-
-RUN pnpm build
-
-RUN pnpm prune --prod
+RUN pnpm run build
 
 FROM base AS deploy
 
