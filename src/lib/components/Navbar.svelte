@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { toggleMode, mode } from 'mode-watcher';
 
 	import { cn, routes } from '$lib/utils';
+
+	import Sun from '$lib/components/icons/Sun.svelte';
+	import Moon from '$lib/components/icons/Moon.svelte';
 </script>
 
 <nav class="flex justify-between items-center">
@@ -18,4 +22,11 @@
 			</li>
 		{/each}
 	</ul>
+	<button on:click={toggleMode}>
+		{#if $mode === 'dark'}
+			<Sun />
+		{:else}
+			<Moon />
+		{/if}
+	</button>
 </nav>

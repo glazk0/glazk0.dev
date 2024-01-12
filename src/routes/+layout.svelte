@@ -2,6 +2,7 @@
 	import '../app.css';
 
 	import { page } from '$app/stores';
+	import { ModeWatcher } from 'mode-watcher';
 
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
@@ -40,6 +41,8 @@
 	/>
 	<meta name="googlebot" content="index, follow" />
 </svelte:head>
+
+<ModeWatcher />
 
 <div class="flex flex-col max-w-3xl px-6 py-10 w-full m-auto gap-10">
 	<Navbar />
