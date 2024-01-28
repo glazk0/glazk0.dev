@@ -17,7 +17,7 @@
 			},
 			{
 				"name": "Zeki",
-				"description": "A user-friendly Discord bot seamlessly connected to Paliapedia, enhancing your Discord experience, it is being used by over 150 servers and 10,000 users",
+				"description": "A user-friendly Discord bot seamlessly connected to Paliapedia, enhancing your Discord experience, it is being used by over 200 servers and 15,000 users",
 				"link": "https://github.com/glazk0/zeki",
 				"tags": [
 					"discord.js",
@@ -54,6 +54,17 @@
 					"svelte(kit)",
 					"tailwindcss",
 					"open source"
+				]
+			},
+			{
+				"name": "Palworld Database",
+				"description": "Discover the ultimate Palworld database at gaming.tools! Offering detailed info on Pals, crafting, skills, and more. Your go-to resource for all things Palworld.",
+				"link": "https://gaming.tools/palworld/en?ref=glazk0.dev",
+				"tags": [
+					"website",
+					"typescript",
+					"svelte(kit)",
+					"tailwindcss"
 				]
 			},
 			{
