@@ -33,7 +33,7 @@
 			<img
 				class="rounded-full h-20 w-20 border-4 border-white/20
 			"
-				src="https://github.com/glazk0.png"
+				src="/assets/me.webp"
 				alt="me"
 			/>
 			<a class="hover:opacity-80 p-2 bg-white/30 rounded-xl" href="//github.com/glazk0/glazk0.dev"
