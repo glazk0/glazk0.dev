@@ -6,6 +6,7 @@
 
 	import Sun from '$lib/components/icons/Sun.svelte';
 	import Moon from '$lib/components/icons/Moon.svelte';
+	import Mail from './icons/Mail.svelte';
 </script>
 
 <nav class="flex justify-between items-center">
@@ -22,11 +23,16 @@
 			</li>
 		{/each}
 	</ul>
-	<button on:click={toggleMode}>
-		{#if $mode === 'dark'}
-			<Sun />
-		{:else}
-			<Moon />
-		{/if}
-	</button>
+	<div class="flex gap-4">
+		<a href="mailto:hi@glazk0.dev?subject=Mail from your website">
+			<Mail />
+		</a>
+		<button on:click={toggleMode}>
+			{#if $mode === 'dark'}
+				<Sun />
+			{:else}
+				<Moon />
+			{/if}
+		</button>
+	</div>
 </nav>
