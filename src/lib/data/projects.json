@@ -5,7 +5,7 @@
 			{
 				"name": "Lilith",
 				"description": "An intuitive and user-friendly Discord bot designed for Diablo 4 enthusiasts, it is being used by over 2,500 servers and 400,000 users",
-				"link": "https://lilith.mom?ref=glazk0.dev",
+				"link": "https://github.com/lilith-discord-bot/lilith",
 				"tags": [
 					"discord.js",
 					"typescript",
@@ -77,17 +77,6 @@
 					"svelte(kit)",
 					"tailwindcss",
 					"open source"
-				]
-			},
-			{
-				"name": "Lilith LFG",
-				"description": "Find like-minded gamers for Diablo 4 on Lilith LFG, a platform also used by the Lilith Discord bot community",
-				"link": "https://lilith.mom?ref=glazk0.dev",
-				"tags": [
-					"website",
-					"typescript",
-					"svelte(kit)",
-					"tailwindcss"
 				]
 			}
 		]
