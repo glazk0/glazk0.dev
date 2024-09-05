@@ -1,12 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { toggleMode, mode } from 'mode-watcher';
+
+	import { mode, toggleMode } from 'mode-watcher';
+
+	import { Mail, Moon, Sun } from '$lib/components/icons';
 
 	import { cn, routes } from '$lib/utils';
-
-	import Sun from '$lib/components/icons/Sun.svelte';
-	import Moon from '$lib/components/icons/Moon.svelte';
-	import Mail from './icons/Mail.svelte';
 </script>
 
 <nav class="flex justify-between items-center">

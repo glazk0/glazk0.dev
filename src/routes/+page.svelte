@@ -1,26 +1,28 @@
 <script lang="ts">
-	import Code from '$lib/components/icons/Code.svelte';
-	import Djs from '$lib/components/icons/DJS.svelte';
-	import Discord from '$lib/components/icons/Discord.svelte';
-	import Docker from '$lib/components/icons/Docker.svelte';
-	import External from '$lib/components/icons/External.svelte';
-	import Git from '$lib/components/icons/Git.svelte';
-	import Github from '$lib/components/icons/Github.svelte';
-	import Go from '$lib/components/icons/Go.svelte';
-	import Javascript from '$lib/components/icons/Javascript.svelte';
-	import Mongo from '$lib/components/icons/Mongo.svelte';
-	import Nextjs from '$lib/components/icons/Nextjs.svelte';
-	import Node from '$lib/components/icons/Node.svelte';
-	import Plausible from '$lib/components/icons/Plausible.svelte';
-	import Postgres from '$lib/components/icons/Postgres.svelte';
-	import React from '$lib/components/icons/React.svelte';
-	import Redis from '$lib/components/icons/Redis.svelte';
-	import Supabase from '$lib/components/icons/Supabase.svelte';
-	import Svelte from '$lib/components/icons/Svelte.svelte';
-	import Tailwindcss from '$lib/components/icons/Tailwindcss.svelte';
-	import Typescript from '$lib/components/icons/Typescript.svelte';
-	import VsCode from '$lib/components/icons/VSCode.svelte';
-	import X from '$lib/components/icons/X.svelte';
+	import {
+		Code,
+		Discord,
+		Djs,
+		Docker,
+		External,
+		Git,
+		Github,
+		Go,
+		Javascript,
+		Mongo,
+		Nextjs,
+		Node,
+		Plausible,
+		Postgres,
+		React,
+		Redis,
+		Supabase,
+		Svelte,
+		Tailwindcss,
+		Typescript,
+		VsCode,
+		X
+	} from '$lib/components/icons';
 
 	import { birthday, discordId } from '$lib/utils';
 </script>
@@ -113,7 +115,7 @@
 		<p class="break-normal">
 			Picture this: I'm on a quest, armed with my coding sword and shield, battling digital dragons
 			on a daily basis. Lately, I've conjured up some cool creations like the
-			<a href="https://lilith.mom?ref=glazk0.dev" target="_blank" class="underline hover:opacity-80"
+			<a href="https://github.com/lilith-discord-bot/lilith" target="_blank" class="underline hover:opacity-80"
 				>Diablo 4 Discord bot</a
 			>, a mystical
 			<a href="https://github.com/glazk0/zeki" target="_blank" class="underline hover:opacity-80"
