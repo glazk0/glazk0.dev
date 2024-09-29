@@ -45,7 +45,7 @@
 
 <ModeWatcher />
 
-<div class="flex flex-col max-w-3xl px-6 py-10 w-full m-auto gap-10">
+<div class="m-auto flex w-full max-w-3xl flex-col gap-10 px-6 py-10">
 	<Navbar />
 	<div class="flex flex-col">
 		<slot />

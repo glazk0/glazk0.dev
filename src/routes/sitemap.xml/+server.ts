@@ -3,9 +3,9 @@ import type { RequestHandler } from '@sveltejs/kit';
 import { response } from 'super-sitemap';
 
 export const GET: RequestHandler = async () => {
-  return await response({
-    origin: 'https://glazk0.dev',
-  });
+	return await response({
+		origin: 'https://glazk0.dev'
+	});
 };
 
 // import { text, type RequestHandler } from '@sveltejs/kit';

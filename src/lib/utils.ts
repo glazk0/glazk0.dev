@@ -11,6 +11,7 @@ export const birthday = Math.floor(
 export const routes = [
 	{ name: 'home', path: '/' },
 	{ name: 'projects', path: '/projects' },
+	{ name: 'resume', path: '/resume.pdf' }
 ];
 
 export function cn(...inputs: ClassValue[]) {
