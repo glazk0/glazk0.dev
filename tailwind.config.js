@@ -3,7 +3,7 @@ export default {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	future: {
-		hoverOnlyWhenSupported: true,
+		hoverOnlyWhenSupported: true
 	},
 	theme: {
 		extend: {
@@ -16,7 +16,7 @@ export default {
 				secondary: '#ff9800',
 				card: '#3d3d54'
 			}
-		},
+		}
 	},
 	plugins: []
 };
