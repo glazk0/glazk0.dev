@@ -32,7 +32,7 @@
 		class="col-span-full flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-[#009688] p-8 text-white backdrop-blur-2xl sm:col-span-4"
 	>
 		<div class="flex items-center justify-between">
-			<img class="h-20 w-20 rounded-full border-4 border-white/20" src="/assets/me.webp" alt="me" />
+			<img class="h-20 w-20 rounded-full border-4 border-white/20" src="https://s3.glazk0.dev/glazk0.dev/assets/me.webp" alt="me" />
 			<a class="rounded-xl bg-white/30 p-2 hover:opacity-80" href="//github.com/glazk0/glazk0.dev"
 				>this website ↗️</a
 			>

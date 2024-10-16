@@ -17,7 +17,7 @@
 		src="https://plausible.glazk0.dev/js/script.js"
 	></script>
 
-	<link rel="icon" href="/favicon.ico" />
+	<link rel="icon" href="https://s3.glazk0.dev/glazk0.dev/favicon.ico" />
 
 	<meta name="theme-color" content="#e2e2e2" />
 
@@ -29,12 +29,12 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="glazk0.dev" />
 	<meta property="og:description" content="Developer, gamer, and student." />
-	<meta property="og:image" content="/assets/banner.webp" />
+	<meta property="og:image" content="https://s3.glazk0.dev/glazk0.dev/assets/banner.webp" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="glazk0.dev" />
 	<meta name="twitter:description" content="Developer, gamer, and student." />
-	<meta name="twitter:image" content="/assets/banner.webp" />
+	<meta name="twitter:image" content="https://s3.glazk0.dev/glazk0.dev/assets/banner.webp" />
 
 	<meta
 		name="robots"

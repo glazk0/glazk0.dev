@@ -1,14 +1,17 @@
-import { text, type RequestHandler } from '@sveltejs/kit';
+import type { RequestHandler } from "./$types";
 
-export const GET: RequestHandler = async () => {
-	const response = ['User-agent: *', 'Allow: /', `Sitemap: https://glazk0.dev/sitemap.xml`].join(
-		'\n'
-	);
+export const GET: RequestHandler = async ({ url: { origin } }) => {
+	const entries = [
+		'User-agent: *',
+		'Allow: /',
+		`Sitemap: ${origin}/sitemap.xml`,
+	];
 
-	return text(response, {
-		status: 200,
+	const response = entries.join('\n');
+
+	return new Response(response, {
 		headers: {
-			'content-type': 'text/plain; charset=UTF-8'
-		}
+			'content-type': 'text/plain; charset=utf-8',
+		},
 	});
 };
