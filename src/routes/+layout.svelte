@@ -9,9 +9,7 @@
 	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
-{#key $page.url}
-	<Metadata />
-{/key}
+<Metadata />
 
 <ModeWatcher />
 
