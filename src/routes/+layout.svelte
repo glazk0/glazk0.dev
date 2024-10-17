@@ -6,7 +6,7 @@
 	import { ModeWatcher } from 'mode-watcher';
 
 	import Metadata from '$lib/components/metadata.svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
+	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
 {#key $page.url}
