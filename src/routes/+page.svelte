@@ -24,7 +24,7 @@
 		X
 	} from '$lib/components/icons';
 
-	import { birthday, discordId } from '$lib/utils';
+	import { BIRTHDAY, CDN_URL, DISCORD_ID } from '$lib/utils';
 </script>
 
 <div class="grid grid-cols-6 gap-6">
@@ -32,15 +32,19 @@
 		class="col-span-full flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-[#009688] p-8 text-white backdrop-blur-2xl sm:col-span-4"
 	>
 		<div class="flex items-center justify-between">
-			<img class="h-20 w-20 rounded-full border-4 border-white/20" src="https://s3.glazk0.dev/glazk0.dev/assets/me.webp" alt="me" />
-			<a class="rounded-xl bg-white/30 p-2 hover:opacity-80" href="//github.com/glazk0/glazk0.dev"
-				>this website ↗️</a
-			>
+			<img
+				class="h-20 w-20 rounded-full border-4 border-white/20"
+				src="{CDN_URL}/assets/me.webp"
+				alt="me"
+			/>
+			<a class="rounded-xl bg-white/30 p-2 hover:opacity-80" href="//github.com/glazk0/glazk0.dev">
+				this website ↗️
+			</a>
 		</div>
 		<div>
 			<h1 class="text-xl font-bold tracking-tighter">théo</h1>
 			<p>
-				{birthday} y/o full stack typescript developer
+				{BIRTHDAY} y/o full stack typescript developer
 			</p>
 		</div>
 	</div>
@@ -88,7 +92,7 @@
 		class="group col-span-full flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-indigo-500 text-white transition duration-300 hover:scale-95 sm:col-span-4"
 	>
 		<a
-			href="discord://-/users/{discordId}"
+			href="discord://-/users/{DISCORD_ID}"
 			class="flex h-full flex-col items-center justify-center p-8"
 		>
 			<span class="sr-only">Discord</span>
@@ -111,17 +115,17 @@
 			Picture this: I'm on a quest, armed with my coding sword and shield, battling digital dragons
 			on a daily basis. Lately, I've conjured up some cool creations like the
 			<a
-				href="https://github.com/lilith-discord-bot/lilith"
+				href="//github.com/lilith-discord-bot/lilith"
 				target="_blank"
-				class="underline hover:opacity-80">Diablo 4 Discord bot</a
+				class="underline hover:opacity-80"
+			>
+				Diablo 4 Discord bot</a
 			>, a mystical
-			<a href="https://github.com/glazk0/zeki" target="_blank" class="underline hover:opacity-80"
-				>Palia Discord bot</a
+			<a href="//github.com/glazk0/zeki" target="_blank" class="underline hover:opacity-80">
+				Palia Discord bot</a
 			>, and an adventurous
-			<a
-				href="https://aeternum.me?ref=glazk0.dev"
-				target="_blank"
-				class="underline hover:opacity-80">New World Discord bot</a
+			<a href="//aeternum.me?ref=glazk0.dev" target="_blank" class="underline hover:opacity-80">
+				New World Discord bot</a
 			>.
 		</p>
 	</div>

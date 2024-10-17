@@ -1,20 +1,25 @@
 // See https://kit.svelte.dev/docs/types#app
+
+import type { Metadata } from "$lib/types";
+
 // for information about these interfaces
 declare global {
 	namespace App {
 		// interface Error {}
 		// interface Locals {}
-		// interface PageData {}
+		interface PageData {
+			metadata?: Metadata;
+		}
 		interface Platform {
 			env: {
-					COUNTER: DurableObjectNamespace;
+				COUNTER: DurableObjectNamespace;
 			};
 			context: {
-					waitUntil(promise: Promise<any>): void;
+				waitUntil(promise: Promise<any>): void;
 			};
 			caches: CacheStorage & { default: Cache }
-	}
+		}
 	}
 }
 
-export {};
+export { };
