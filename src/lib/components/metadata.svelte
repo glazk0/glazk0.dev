@@ -31,7 +31,7 @@
 	<meta itemprop="image" content={metadata.image} />
 	<meta itemprop="name" content={metadata.title} />
 	<meta itemprop="description" content={metadata.description} />
-	<meta property="og:site_name" content={$page.url.origin.replace(/^https?:\/\//, '')} />
+	<meta property="og:site_name" content={$page.url.hostname} />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={metadata.title} />
 	<meta property="og:description" content={metadata.description} />
@@ -45,16 +45,17 @@
 	<meta name="twitter:description" content={metadata.description} />
 	<meta name="twitter:image" content={metadata.image} />
 	<meta name="twitter:creator" content="@glazk0" />
-	<meta name="twitter:domain" content={$page.url.origin.replace(/^https?:\/\//, '')} />
+	<meta name="twitter:domain" content={$page.url.hostname} />
 	<meta name="twitter:url" content={$page.url.origin + $page.url.pathname} />
 
 	<link rel="canonical" href={$page.url.origin + $page.url.pathname} />
 
 	<link rel="icon" href="{CDN_URL}/favicon.ico" />
 	<link rel="shortcut icon" href="{CDN_URL}/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" sizes="180x180" href="{CDN_URL}/apple-touch-icon.png" />
+	<!-- TODO -->
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="{CDN_URL}/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="{CDN_URL}/favicon-32x32.png" />
-	<link rel="icon" type="image/png" sizes="16x16" href="{CDN_URL}/favicon-16x16.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{CDN_URL}/favicon-16x16.png" /> -->
 
 	<script
 		defer
