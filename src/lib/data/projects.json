@@ -3,6 +3,12 @@
 		"name": "Discord Bots",
 		"projects": [
 			{
+				"name": "Badger",
+				"description": "A user-friendly Discord bot seamlessly connected to Pax Dei Database, it is being used by over 3,000 servers and 20,000 users",
+				"link": "https://paxdei.gaming.tools/discord-bot?ref=glazk0.dev",
+				"tags": ["discord.js", "typescript", "postgresql", "drizzle", "docker", "open source"]
+			},
+			{
 				"name": "Lilith",
 				"description": "An intuitive and user-friendly Discord bot designed for Diablo 4 enthusiasts, it is being used by over 2,500 servers and 400,000 users",
 				"link": "https://github.com/lilith-discord-bot/lilith",
