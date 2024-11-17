@@ -16,7 +16,7 @@
 			},
 			{
 				"name": "Zeki",
-				"description": "A user-friendly Discord bot seamlessly connected to Paliapedia, enhancing your Discord experience, it is being used by over 200 servers and 15,000 users",
+				"description": "A user-friendly Discord bot seamlessly connected to Paliapedia, enhancing your Discord experience, it is being used by over 800 servers and 65,000 users",
 				"link": "https://github.com/glazk0/zeki",
 				"tags": ["discord.js", "typescript", "postgresql", "drizzle", "docker", "open source"]
 			},
