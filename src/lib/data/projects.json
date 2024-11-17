@@ -4,7 +4,7 @@
 		"projects": [
 			{
 				"name": "Badger",
-				"description": "A user-friendly Discord bot seamlessly connected to Pax Dei Database, it is being used by over 3,000 servers and 20,000 users",
+				"description": "A user-friendly Discord bot seamlessly connected to Pax Dei Database, it is being used by over 300 servers and 20,000 users",
 				"link": "https://paxdei.gaming.tools/discord-bot?ref=glazk0.dev",
 				"tags": ["discord.js", "typescript", "postgresql", "drizzle", "docker", "open source"]
 			},
