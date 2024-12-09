@@ -1,6 +1,6 @@
 # My website
 
-My personal website, built with [Sveltekit](https://kit.svelte.dev/).
+My personal website, built with [Sveltekit](https://svelte.dev/).
 
 ## Development
 
