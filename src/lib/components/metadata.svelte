@@ -57,9 +57,5 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="{CDN_URL}/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="{CDN_URL}/favicon-16x16.png" /> -->
 
-	<script
-		defer
-		data-domain={$page.url.hostname}
-		src="https://plausible.glazk0.dev/js/script.outbound-links.js"
-	></script>
+	<script src="https://analytics.glazk0.dev/api/script.js" data-site-id="1" defer></script>
 </svelte:head>
