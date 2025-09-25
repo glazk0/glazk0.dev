@@ -1,8 +1,6 @@
 <script lang="ts">
 	import '../app.css';
 
-	import { page } from '$app/stores';
-
 	import { ModeWatcher } from 'mode-watcher';
 
 	import Metadata from '$lib/components/metadata.svelte';
