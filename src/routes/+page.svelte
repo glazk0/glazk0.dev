@@ -28,6 +28,16 @@
 </script>
 
 <div class="grid grid-cols-6 gap-6">
+
+	<div
+		class="col-span-full flex h-32 items-center justify-center rounded-2xl bg-gradient-to-r from-orange-400 to-pink-400 p-6 text-white"
+	>
+		<div class="text-center">
+			<h2 class="font-title text-lg font-bold">🚀 Big Changes Coming!</h2>
+			<p class="text-sm opacity-90">This website is evolving as I transition to freelance work</p>
+		</div>
+	</div>
+
 	<div
 		class="col-span-full flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-[#009688] p-8 text-white backdrop-blur-2xl sm:col-span-4"
 	>
